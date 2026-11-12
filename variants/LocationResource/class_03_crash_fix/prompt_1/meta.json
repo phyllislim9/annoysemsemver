@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 1,
+  "witness": {
+    "method": "findById",
+    "input": "id not a number",
+    "v1_result": "NumberFormatException",
+    "v2_result": "400 response",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

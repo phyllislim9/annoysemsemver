@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 3,
+  "witness": {
+    "method": "payByCard",
+    "input": "valid card",
+    "v1_result": "Location .../orders/1",
+    "v2_result": "Location .../ORDERS/1",
+    "transition": "VALID->VALID(equivalent: case)"
+  },
+  "note": "Only visible if the checker compares the Location header.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

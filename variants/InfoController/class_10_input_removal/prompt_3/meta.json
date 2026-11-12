@@ -1,0 +1,14 @@
+{
+  "class_id": 10,
+  "class_name": "input_removal",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchVersionGET",
+    "input": "(no longer public)",
+    "v1_result": "public",
+    "v2_result": "protected",
+    "transition": "METHOD_PRESENT->ABSENT"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

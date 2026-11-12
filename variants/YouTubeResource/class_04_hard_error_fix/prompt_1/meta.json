@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 1,
+  "witness": {
+    "method": "list",
+    "input": "part=\"bogus\"",
+    "v1_result": "BadRequestException",
+    "v2_result": "HTTP 400 response",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

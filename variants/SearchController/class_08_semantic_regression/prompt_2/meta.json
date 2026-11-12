@@ -1,0 +1,14 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 2,
+  "witness": {
+    "method": "searchAnnotationByKeywordGET",
+    "input": "(signature)",
+    "v1_result": "List<IndexSearch>",
+    "v2_result": "Object",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

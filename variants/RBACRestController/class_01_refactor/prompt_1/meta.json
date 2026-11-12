@@ -1,0 +1,13 @@
+{
+  "class_id": 1,
+  "class_name": "refactor",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getRolePresentationList",
+    "input": "any",
+    "v1_result": "same",
+    "v2_result": "same",
+    "transition": "NONE"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

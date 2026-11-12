@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getLanguages",
+    "input": "(none)",
+    "v1_result": "JSON",
+    "v2_result": "same JSON plus a trailing newline",
+    "transition": "VALID->VALID(equivalent: whitespace)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

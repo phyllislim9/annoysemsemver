@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getAllProducts",
+    "input": "service returns names",
+    "v1_result": "all names",
+    "v2_result": "[]",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written)"
+}

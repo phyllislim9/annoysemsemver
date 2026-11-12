@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 3,
+  "witness": {
+    "method": "deleteConstraint",
+    "input": "constraintId=Long.MAX_VALUE",
+    "v1_result": "Response(204)",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

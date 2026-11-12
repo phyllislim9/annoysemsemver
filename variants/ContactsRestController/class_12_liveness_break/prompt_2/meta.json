@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 2,
+  "witness": {
+    "method": "updateContacts",
+    "input": "principal \"alice\"",
+    "v1_result": "contacts",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

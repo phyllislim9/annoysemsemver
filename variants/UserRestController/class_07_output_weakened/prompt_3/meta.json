@@ -1,0 +1,13 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getUserPresentationList",
+    "input": "service returns >1 users",
+    "v1_result": "all users",
+    "v2_result": "first only",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

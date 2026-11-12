@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchHotspotAnnotationByHgvsGET",
+    "input": "any variant",
+    "v1_result": "2 hotspots",
+    "v2_result": "1 hotspot",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

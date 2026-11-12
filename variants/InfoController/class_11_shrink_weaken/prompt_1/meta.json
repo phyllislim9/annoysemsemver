@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchVersionGET / fetchPingGET",
+    "input": "(removed+added)",
+    "v1_result": "GET present",
+    "v2_result": "absent, ping present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

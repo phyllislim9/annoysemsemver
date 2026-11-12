@@ -1,0 +1,14 @@
+{
+  "class_id": 6,
+  "class_name": "input_output_improve",
+  "prompt_id": 2,
+  "witness": {
+    "method": "refreshContacts / updateContacts",
+    "input": "(new method); principal=null or contactsDto=null",
+    "v1_result": "absent; NullPointerException",
+    "v2_result": "present; null",
+    "transition": "METHOD_ABSENT->PRESENT and CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 1,
+  "witness": {
+    "method": "authenticate",
+    "input": "a valid request",
+    "v1_result": "a token",
+    "v2_result": "no body",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

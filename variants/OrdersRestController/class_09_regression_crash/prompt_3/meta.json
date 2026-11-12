@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getOrders",
+    "input": "principal \"alice\"",
+    "v1_result": "3 orders",
+    "v2_result": "IllegalStateException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

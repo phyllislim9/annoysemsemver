@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 1,
+  "witness": {
+    "method": "addFeatureToProduct",
+    "input": "description of 200 chars",
+    "v1_result": "Response(201)",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

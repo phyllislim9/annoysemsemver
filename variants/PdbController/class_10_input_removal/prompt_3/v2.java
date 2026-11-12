@@ -1,0 +1,43 @@
+package org.cbioportal.genome_nexus.web;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import org.cbioportal.genome_nexus.model.PdbHeader;
+import org.cbioportal.genome_nexus.service.PdbDataService;
+import org.cbioportal.genome_nexus.service.exception.PdbHeaderNotFoundException;
+import org.cbioportal.genome_nexus.service.exception.PdbHeaderWebServiceException;
+import org.cbioportal.genome_nexus.web.config.PublicApi;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+
+/**
+ * @author Selcuk Onur Sumer
+ */
+@PublicApi
+@RestController // shorthand for @Controller, @ResponseBody
+@CrossOrigin(origins="*") // allow all cross-domain requests
+@RequestMapping(value= "/")
+@Api(tags = "pdb-controller", description = "PDB Controller")
+public class PdbControllerV2
+{
+private final PdbDataService pdbDataService;
+
+    @Autowired
+public PdbControllerV2(PdbDataService pdbDataService)
+    {
+this.pdbDataService = pdbDataService;
+    }
+
+}

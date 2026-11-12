@@ -1,0 +1,14 @@
+{
+  "class_id": 6,
+  "class_name": "input_output_improve",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getApiVersion / getConfigurationInfo",
+    "input": "(new method); lang=null",
+    "v1_result": "absent; NullPointerException",
+    "v2_result": "present; \"{}\"",
+    "transition": "METHOD_ABSENT->PRESENT and CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

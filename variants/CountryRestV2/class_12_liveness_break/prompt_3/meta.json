@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 3,
+  "witness": {
+    "method": "doPOST",
+    "input": "(none)",
+    "v1_result": "HTTP 405",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "doPOST takes no input, so it hangs on every call.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

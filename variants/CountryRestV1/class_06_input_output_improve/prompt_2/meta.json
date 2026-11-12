@@ -1,0 +1,14 @@
+{
+  "class_id": 6,
+  "class_name": "input_output_improve",
+  "prompt_id": 2,
+  "witness": {
+    "method": "hasAlpha / getByCapital",
+    "input": "(new method); capital=null",
+    "v1_result": "absent; HTTP 500",
+    "v2_result": "present; HTTP 404",
+    "transition": "METHOD_ABSENT->PRESENT and CRASH->VALID"
+  },
+  "note": "Needs --http-5xx-crash.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

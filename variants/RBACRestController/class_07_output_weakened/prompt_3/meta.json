@@ -1,0 +1,13 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getRolePresentationList",
+    "input": "service returns >3 roles",
+    "v1_result": "all roles",
+    "v2_result": "first 3",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

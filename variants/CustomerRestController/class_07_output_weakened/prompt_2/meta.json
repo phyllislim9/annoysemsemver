@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 2,
+  "witness": {
+    "method": "createCustomer",
+    "input": "valid user",
+    "v1_result": "account + 2 links",
+    "v2_result": "account without links",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "Only visible if the checker renders the HATEOAS links.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

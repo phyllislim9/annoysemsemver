@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 3,
+  "witness": {
+    "method": "list",
+    "input": "regionCode=\"ZZ\"",
+    "v1_result": "BadRequestException",
+    "v2_result": "region ignored",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

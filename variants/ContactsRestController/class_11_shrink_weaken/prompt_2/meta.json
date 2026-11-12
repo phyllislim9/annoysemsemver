@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "updateContacts / getCartUrl",
+    "input": "(removed+added)",
+    "v1_result": "update present",
+    "v2_result": "update absent, url present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

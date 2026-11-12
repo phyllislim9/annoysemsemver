@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 1,
+  "witness": {
+    "method": "findById",
+    "input": "id \"1\"",
+    "v1_result": "a department",
+    "v2_result": "IllegalStateException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

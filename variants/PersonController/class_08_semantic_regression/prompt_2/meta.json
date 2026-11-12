@@ -1,0 +1,14 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 2,
+  "witness": {
+    "method": "averageAge",
+    "input": "(signature)",
+    "v1_result": "Double",
+    "v2_result": "double",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

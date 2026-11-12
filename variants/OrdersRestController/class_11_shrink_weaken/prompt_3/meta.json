@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getOrder / getLatestOrder",
+    "input": "(removed+added)",
+    "v1_result": "single present",
+    "v2_result": "single absent, latest present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

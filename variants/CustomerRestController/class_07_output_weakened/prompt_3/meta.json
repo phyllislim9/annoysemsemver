@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 3,
+  "witness": {
+    "method": "createCustomer",
+    "input": "valid user",
+    "v1_result": "the submitted account",
+    "v2_result": "the stored account",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

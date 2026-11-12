@@ -1,0 +1,13 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 3,
+  "witness": {
+    "method": "addPermissionOnRole",
+    "input": "roleId/permissionKey null or blank",
+    "v1_result": "throws",
+    "v2_result": "400",
+    "transition": "CRASH->VALID"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

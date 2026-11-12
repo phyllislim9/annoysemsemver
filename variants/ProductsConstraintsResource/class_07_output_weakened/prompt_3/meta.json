@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 3,
+  "witness": {
+    "method": "addRequiresConstraintToProduct",
+    "input": "any",
+    "v1_result": "Response(201, Location)",
+    "v2_result": "Response(201, no Location)",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "Only visible if the checker compares the Location header.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

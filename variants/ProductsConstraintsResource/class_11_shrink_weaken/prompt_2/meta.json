@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addRequiresConstraintToProduct / getConstraintKindCount",
+    "input": "(removed+added)",
+    "v1_result": "requires present",
+    "v2_result": "requires absent, kinds present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,13 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getUserPresentationList",
+    "input": "any",
+    "v1_result": "[u3,u1,u2]",
+    "v2_result": "[u2,u1,u3]",
+    "transition": "VALID->VALID(equivalent)"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

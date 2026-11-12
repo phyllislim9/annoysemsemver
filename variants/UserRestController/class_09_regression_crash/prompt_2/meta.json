@@ -1,0 +1,13 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addRole",
+    "input": "roleId=-1",
+    "v1_result": "201",
+    "v2_result": "IllegalArgumentException",
+    "transition": "VALID->CRASH"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

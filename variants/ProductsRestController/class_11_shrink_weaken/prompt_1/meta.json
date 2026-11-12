@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getProducts / productExists",
+    "input": "(removed+added)",
+    "v1_result": "list present",
+    "v2_result": "list absent, productExists present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

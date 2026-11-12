@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 3,
+  "witness": {
+    "method": "deleteByUsername",
+    "input": "a user name longer than 4 characters",
+    "v1_result": "true",
+    "v2_result": "IllegalStateException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

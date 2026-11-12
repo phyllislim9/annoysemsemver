@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addFeatureToConfiguration / hasFeature",
+    "input": "(removed+added)",
+    "v1_result": "addFeatureToConfiguration present",
+    "v2_result": "absent, hasFeature present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

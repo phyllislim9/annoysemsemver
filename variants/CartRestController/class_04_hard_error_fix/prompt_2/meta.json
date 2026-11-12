@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "payByCard",
+    "input": "card with empty number",
+    "v1_result": "IllegalArgumentException",
+    "v2_result": "ResponseEntity(400)",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 3,
+  "witness": {
+    "method": "doPOST",
+    "input": "(none)",
+    "v1_result": "HTTP 405",
+    "v2_result": "IllegalStateException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "doPOST takes no input, so it fails on every call.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addFeatureToConfiguration",
+    "input": "invalid evaluation",
+    "v1_result": "rejected (exception)",
+    "v2_result": "201 accepted",
+    "transition": "REJECTED->ACCEPTED"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

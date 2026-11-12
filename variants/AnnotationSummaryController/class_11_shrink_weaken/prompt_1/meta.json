@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchVariantAnnotationSummaryPOST / countVariants",
+    "input": "(removed+added)",
+    "v1_result": "POST present",
+    "v2_result": "absent, countVariants present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

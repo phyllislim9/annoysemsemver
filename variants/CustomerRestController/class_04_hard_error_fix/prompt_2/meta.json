@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "createCustomer",
+    "input": "email already registered",
+    "v1_result": "IllegalArgumentException",
+    "v2_result": "null",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

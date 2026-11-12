@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchPdbHeaderPOST",
+    "input": "pdbIds null or a blank element",
+    "v1_result": "IllegalArgumentException",
+    "v2_result": "empty list",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

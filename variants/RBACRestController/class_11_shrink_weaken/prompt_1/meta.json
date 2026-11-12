@@ -1,0 +1,13 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 1,
+  "witness": {
+    "method": "deleteRoleById / getRoleCount",
+    "input": "(removed+added)",
+    "v1_result": "delete present",
+    "v2_result": "delete absent, count present",
+    "transition": "REMOVE+ADD"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

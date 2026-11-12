@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getByCapital",
+    "input": "capital=null",
+    "v1_result": "HTTP 500",
+    "v2_result": "HTTP 404",
+    "transition": "CRASH->VALID"
+  },
+  "note": "Needs --http-5xx-crash: V1 catches the failure and answers HTTP 500.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

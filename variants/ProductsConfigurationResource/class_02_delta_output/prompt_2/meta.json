@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getConfigurationsForProduct",
+    "input": "productName=\" \"",
+    "v1_result": "[c1..c5]",
+    "v2_result": "[C1..C5]",
+    "transition": "VALID->VALID(equivalent)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

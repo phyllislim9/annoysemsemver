@@ -1,0 +1,14 @@
+{
+  "class_id": 6,
+  "class_name": "input_output_improve",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchSignalMutationCountPOST / fetchSignalMutationsByMutationFilterPOST",
+    "input": "(new method); mutationFilter = null",
+    "v1_result": "absent; crash",
+    "v2_result": "present; valid",
+    "transition": "METHOD_ABSENT->PRESENT and CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getByCurrency",
+    "input": "currency=\"EUR\"",
+    "v1_result": "[ES, FR]",
+    "v2_result": "IllegalArgumentException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchVersionGET",
+    "input": "(no input)",
+    "v1_result": "a version",
+    "v2_result": "a version with empty texts",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

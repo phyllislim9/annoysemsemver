@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 3,
+  "witness": {
+    "method": "updateContacts",
+    "input": "valid contacts",
+    "v1_result": "the submitted contacts",
+    "v2_result": "the stored contacts",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

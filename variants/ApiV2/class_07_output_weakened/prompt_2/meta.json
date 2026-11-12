@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getSoftwareInfo",
+    "input": "(none)",
+    "v1_result": "has commit",
+    "v2_result": "no commit",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

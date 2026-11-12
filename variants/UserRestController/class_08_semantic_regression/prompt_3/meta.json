@@ -1,0 +1,13 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 3,
+  "witness": {
+    "method": "createUser",
+    "input": "(signature)",
+    "v1_result": "CreateOrUpdateUserDTO",
+    "v2_result": "Object",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

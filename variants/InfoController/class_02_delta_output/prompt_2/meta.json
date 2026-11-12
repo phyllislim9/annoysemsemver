@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchVersionGET",
+    "input": "(no input)",
+    "v1_result": "Genome-Nexus 1.2.3",
+    "v2_result": "genome-nexus 1.2.3",
+    "transition": "VALID->VALID(equivalent: case)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

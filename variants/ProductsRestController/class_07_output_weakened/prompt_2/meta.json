@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getProduct",
+    "input": "productId=1",
+    "v1_result": "product + list link",
+    "v2_result": "product without link",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "Only visible if the checker renders the HATEOAS links.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,13 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getRolePresentationList",
+    "input": "any",
+    "v1_result": "[r1..r5]",
+    "v2_result": "[r5..r1]",
+    "transition": "VALID->VALID(equivalent)"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

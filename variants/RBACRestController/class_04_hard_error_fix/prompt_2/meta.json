@@ -1,0 +1,13 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addPermissionOnRole",
+    "input": "permissionKey=null/blank",
+    "v1_result": "throws",
+    "v2_result": "200 role unchanged",
+    "transition": "REJECTED->ACCEPTED"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "findByUsername",
+    "input": "user name = \"alice\"",
+    "v1_result": "findByUsername:[alice]",
+    "v2_result": "findByUsername:[alice] ",
+    "transition": "VALID->VALID(equivalent: white space)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

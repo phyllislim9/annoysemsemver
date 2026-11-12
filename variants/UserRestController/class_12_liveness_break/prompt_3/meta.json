@@ -1,0 +1,13 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 3,
+  "witness": {
+    "method": "addRole",
+    "input": "roleId=0",
+    "v1_result": "201",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,71 @@
+package org.javiermf.features.services.rest;
+
+import org.javiermf.features.exceptions.WrongProductConfigurationException;
+import org.javiermf.features.models.evaluation.EvaluationResult;
+import org.javiermf.features.services.ProductsConfigurationsService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.Response;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.CountDownLatch;
+
+@Component
+@Produces("application/json")
+public class ProductsConfigurationFeaturesResourceV2 {
+
+    @Autowired
+    ProductsConfigurationsService configurationsService;
+
+    @GET
+    public List<String> getConfigurationActivedFeatures(@PathParam("productName") String productName,
+                                                        @PathParam("configurationName") String configurationName) {
+        return configurationsService.getConfigurationActivedFeaturesNames(productName, configurationName);
+    }
+
+    @POST
+    @Path("/{featureName}")
+    public Response addFeatureToConfiguration(@PathParam("productName") String productName,
+                                              @PathParam("configurationName") String configurationName,
+                                              @PathParam("featureName") String featureName
+    ) throws URISyntaxException, WrongProductConfigurationException {
+        EvaluationResult result = configurationsService.addFeatureFromConfiguration(productName, configurationName, featureName);
+        if (result.isValid) {
+            return Response.created(new URI("/products/" + productName + "/configurations/" + configurationName + "/features/" + featureName)).build();
+        } else {
+            throw new WrongProductConfigurationException(result.evaluationErrorMessages);
+        }
+    }
+
+    @DELETE
+    @Path("/{featureName}")
+    public Response deleteFeature(@PathParam("productName") String productName,
+                                  @PathParam("configurationName") String configurationName,
+                                  @PathParam("featureName") String featureName
+    ) throws WrongProductConfigurationException {
+        EvaluationResult result = configurationsService.removeFeatureFromConfiguration(productName, configurationName, featureName);
+        if (result.isValid) {
+            return Response.noContent().build();
+        } else {
+            return Response.status(400).build();
+        }
+    }
+
+    @GET
+    @Path("/{featureName}")
+    public boolean hasFeature(@PathParam("productName") String productName,
+                              @PathParam("configurationName") String configurationName,
+                              @PathParam("featureName") String featureName) {
+        List<String> names = configurationsService.getConfigurationActivedFeaturesNames(productName, configurationName);
+        return names != null && names.contains(featureName);
+    }
+
+}

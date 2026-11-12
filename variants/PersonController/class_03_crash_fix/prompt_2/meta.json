@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "deletePersons(String)",
+    "input": "ids=null",
+    "v1_result": "NullPointerException",
+    "v2_result": "0",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

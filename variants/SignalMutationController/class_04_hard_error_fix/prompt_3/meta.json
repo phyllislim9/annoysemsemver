@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchSignalMutationsByMutationFilterPOST",
+    "input": "a filter that is null, has no symbols or a blank one",
+    "v1_result": "crash",
+    "v2_result": "empty list",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

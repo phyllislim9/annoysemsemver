@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "searchSignalByKeywordGET / searchSignalByKeyword",
+    "input": "(renamed)",
+    "v1_result": "searchSignalByKeywordGET present",
+    "v2_result": "absent, searchSignalByKeyword present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

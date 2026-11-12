@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getByLanguage / hasAlpha",
+    "input": "(removed+added)",
+    "v1_result": "language lookup present",
+    "v2_result": "language absent, hasAlpha present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

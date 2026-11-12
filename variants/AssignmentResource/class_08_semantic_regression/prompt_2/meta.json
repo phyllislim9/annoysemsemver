@@ -1,0 +1,14 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 2,
+  "witness": {
+    "method": "findById",
+    "input": "(signature)",
+    "v1_result": "3 params",
+    "v2_result": "4 params",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

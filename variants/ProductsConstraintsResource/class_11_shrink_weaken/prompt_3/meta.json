@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 3,
+  "witness": {
+    "method": "addExcludesConstraintToProduct / getSupportedConstraintTypes",
+    "input": "(removed+added)",
+    "v1_result": "excludes present",
+    "v2_result": "excludes absent, types present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

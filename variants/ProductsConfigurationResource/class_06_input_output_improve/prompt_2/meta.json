@@ -1,0 +1,14 @@
+{
+  "class_id": 6,
+  "class_name": "input_output_improve",
+  "prompt_id": 2,
+  "witness": {
+    "method": "configurationExists / deleteConfiguration",
+    "input": "(new method); configurationName=\" \"",
+    "v1_result": "absent; IllegalArgumentException",
+    "v2_result": "present; Response(204)",
+    "transition": "METHOD_ABSENT->PRESENT and CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

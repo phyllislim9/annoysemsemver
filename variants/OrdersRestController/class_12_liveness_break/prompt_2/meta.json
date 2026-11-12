@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getOrder",
+    "input": "orderId=1",
+    "v1_result": "order 1",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

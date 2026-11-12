@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getProduct",
+    "input": "any",
+    "v1_result": "rel \"All products\"",
+    "v2_result": "rel \"all products\"",
+    "transition": "VALID->VALID(equivalent: case)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

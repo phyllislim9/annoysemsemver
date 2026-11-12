@@ -1,0 +1,14 @@
+{
+  "class_id": 10,
+  "class_name": "input_removal",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchNucleotideContextAnnotationGET, fetchNucleotideContextAnnotationPOST",
+    "input": "(both removed)",
+    "v1_result": "present",
+    "v2_result": "absent",
+    "transition": "METHOD_PRESENT->ABSENT"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchMyVariantInfoAnnotationGET",
+    "input": "variant = \"test\"",
+    "v1_result": "a record",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

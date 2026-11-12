@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchVariantAnnotationGET / firstVariant",
+    "input": "(removed+added)",
+    "v1_result": "variant GET present",
+    "v2_result": "absent, firstVariant present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 2,
+  "witness": {
+    "method": "searchSignalByKeywordGET",
+    "input": "a keyword longer than 20 characters",
+    "v1_result": "hits",
+    "v2_result": "IllegalArgumentException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

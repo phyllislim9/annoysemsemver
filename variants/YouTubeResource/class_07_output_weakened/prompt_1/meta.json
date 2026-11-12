@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 1,
+  "witness": {
+    "method": "list",
+    "input": "part=snippet",
+    "v1_result": "5 items",
+    "v2_result": "1 item",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

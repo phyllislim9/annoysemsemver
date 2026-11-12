@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchGeneXrefsGET",
+    "input": "accession = \"test\"",
+    "v1_result": "xrefs",
+    "v2_result": "IllegalArgumentException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

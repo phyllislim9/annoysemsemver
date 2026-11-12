@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getSoftwareInfo / isSwaggerAvailable",
+    "input": "(removed+added)",
+    "v1_result": "info present",
+    "v2_result": "info absent, swagger flag present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

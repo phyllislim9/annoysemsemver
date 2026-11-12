@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getByName",
+    "input": "name=\"a\"",
+    "v1_result": "[Spain, France, United States]",
+    "v2_result": "[United States, France, Spain]",
+    "transition": "VALID->VALID(equivalent: order)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

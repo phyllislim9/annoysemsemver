@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchMutationAssessorAnnotationPOST",
+    "input": "one or more variants",
+    "v1_result": "n records",
+    "v2_result": "n-1 records",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getCount",
+    "input": "(none)",
+    "v1_result": "3",
+    "v2_result": "IllegalStateException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "getCount takes no input, so it fails on every call.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

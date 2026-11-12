@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 2,
+  "witness": {
+    "method": "payByCard",
+    "input": "valid card",
+    "v1_result": "status 201",
+    "v2_result": "status 200",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

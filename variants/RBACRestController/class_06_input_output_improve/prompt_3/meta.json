@@ -1,0 +1,13 @@
+{
+  "class_id": 6,
+  "class_name": "input_output_improve",
+  "prompt_id": 3,
+  "witness": {
+    "method": "roleExists (new) + addPermissionOnRole",
+    "input": "roleId/permissionKey null or blank",
+    "v1_result": "absent ; throws",
+    "v2_result": "present ; error response",
+    "transition": "METHOD_ABSENT->PRESENT and CRASH->VALID"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

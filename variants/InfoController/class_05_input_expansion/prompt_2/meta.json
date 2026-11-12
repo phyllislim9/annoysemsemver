@@ -1,0 +1,14 @@
+{
+  "class_id": 5,
+  "class_name": "input_expansion",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchVersionTextGET",
+    "input": "(new method)",
+    "v1_result": "absent",
+    "v2_result": "present",
+    "transition": "METHOD_ABSENT->PRESENT"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

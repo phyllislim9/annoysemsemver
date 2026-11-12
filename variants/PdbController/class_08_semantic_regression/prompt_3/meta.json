@@ -1,0 +1,14 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchPdbHeaderPOST",
+    "input": "(signature)",
+    "v1_result": "1 param",
+    "v2_result": "2 params",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getConfigurationInfo",
+    "input": "lang=null",
+    "v1_result": "NullPointerException",
+    "v2_result": "\"{}\"",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

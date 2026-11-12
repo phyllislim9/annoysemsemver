@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getAllProducts / isProductListEmpty",
+    "input": "(removed+added)",
+    "v1_result": "getAllProducts present",
+    "v2_result": "absent, isProductListEmpty present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written)"
+}

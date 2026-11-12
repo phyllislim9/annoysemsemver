@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "findAllByEmployeeIdAndManagerId",
+    "input": "any ids",
+    "v1_result": "IllegalArgumentException (null status)",
+    "v2_result": "200 response",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

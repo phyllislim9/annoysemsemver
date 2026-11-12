@@ -1,0 +1,37 @@
+package org.cbioportal.genome_nexus.web;
+
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import org.cbioportal.genome_nexus.model.SignalQuery;
+import org.cbioportal.genome_nexus.service.SignalQueryService;
+import org.cbioportal.genome_nexus.web.config.InternalApi;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+@InternalApi
+@RestController // shorthand for @Controller, @ResponseBody
+@CrossOrigin(origins="*") // allow all cross-domain requests
+@RequestMapping(value= "/")
+@Api(tags = "signal-query-controller", description = "Signal Query Controller")
+public class SignalQueryControllerV2
+{
+private final SignalQueryService signalQueryService;
+
+    @Autowired
+public SignalQueryControllerV2(SignalQueryService signalQueryService)
+    {
+this.signalQueryService = signalQueryService;
+    }
+
+    @RequestMapping(value = "/signal/search/top", method = RequestMethod.GET, produces = "application/json")
+    public List<SignalQuery> searchTopGET(@RequestParam String keyword)
+    {
+        return this.signalQueryService.search(keyword, 1);
+    }
+
+}

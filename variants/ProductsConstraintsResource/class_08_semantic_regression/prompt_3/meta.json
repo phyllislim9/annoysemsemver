@@ -1,0 +1,14 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 3,
+  "witness": {
+    "method": "deleteConstraint",
+    "input": "(signature)",
+    "v1_result": "Long constraintId",
+    "v2_result": "String constraintId",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

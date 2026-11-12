@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getContacts",
+    "input": "any",
+    "v1_result": "rel \"Shopping cart\"",
+    "v2_result": "rel \"shopping cart\"",
+    "transition": "VALID->VALID(equivalent: case)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

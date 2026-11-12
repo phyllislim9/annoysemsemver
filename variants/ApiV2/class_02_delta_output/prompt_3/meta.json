@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getLanguages",
+    "input": "(none)",
+    "v1_result": "\"code\":\"en\"",
+    "v2_result": "\"code\":\"EN\"",
+    "transition": "VALID->VALID(equivalent: case)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

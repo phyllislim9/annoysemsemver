@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getProducts",
+    "input": "(none)",
+    "v1_result": "3 products",
+    "v2_result": "2 products",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

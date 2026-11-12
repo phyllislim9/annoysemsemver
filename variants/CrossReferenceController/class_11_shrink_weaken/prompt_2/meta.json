@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchGeneXrefsGET / fetchGeneXrefs",
+    "input": "(renamed)",
+    "v1_result": "fetchGeneXrefsGET present",
+    "v2_result": "absent, fetchGeneXrefs present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

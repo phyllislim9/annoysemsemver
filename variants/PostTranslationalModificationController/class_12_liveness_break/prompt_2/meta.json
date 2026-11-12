@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchPostTranslationalModificationsByPtmFilterPOST",
+    "input": "a filter with two ids",
+    "v1_result": "records",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

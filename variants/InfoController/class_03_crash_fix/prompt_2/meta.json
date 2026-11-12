@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchVersionGET",
+    "input": "(no input)",
+    "v1_result": "valid",
+    "v2_result": "valid",
+    "transition": "NONE"
+  },
+  "note": "no input can make V1 crash",
+  "generator": "Claude (hand-written, not Gemini)"
+}

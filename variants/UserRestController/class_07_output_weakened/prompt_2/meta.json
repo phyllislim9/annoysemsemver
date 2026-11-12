@@ -1,0 +1,13 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 2,
+  "witness": {
+    "method": "updateUser",
+    "input": "valid id and dto",
+    "v1_result": "the submitted data",
+    "v2_result": "the stored (unchanged) user",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

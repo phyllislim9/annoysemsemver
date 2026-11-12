@@ -1,0 +1,13 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "createUser / userExists",
+    "input": "(removed+added)",
+    "v1_result": "create present",
+    "v2_result": "create absent, exists present",
+    "transition": "REMOVE+ADD"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

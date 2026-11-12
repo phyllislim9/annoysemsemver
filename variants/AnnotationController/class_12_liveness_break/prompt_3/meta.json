@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchVariantAnnotationByDbSnpIdGET",
+    "input": "an id longer than 20 characters",
+    "v1_result": "annotation",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

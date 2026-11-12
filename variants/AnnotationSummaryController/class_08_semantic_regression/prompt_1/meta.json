@@ -1,0 +1,14 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchVariantAnnotationSummaryPOST",
+    "input": "(signature)",
+    "v1_result": "List<VariantAnnotationSummary>",
+    "v2_result": "Collection<VariantAnnotationSummary>",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "getPersons(String)",
+    "input": "ids=\"1,2\"",
+    "v1_result": "[p1, p2]",
+    "v2_result": "[p2, p1]",
+    "transition": "VALID->VALID(equivalent: order)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

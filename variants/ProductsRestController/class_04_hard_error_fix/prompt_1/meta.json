@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getProduct",
+    "input": "productId=0 (no such product)",
+    "v1_result": "UnknownEntityException",
+    "v2_result": "null",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

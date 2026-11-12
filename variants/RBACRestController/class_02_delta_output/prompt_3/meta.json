@@ -1,0 +1,13 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getPermissionPresentationList",
+    "input": "any",
+    "v1_result": "[p1..p5]",
+    "v2_result": "[p5..p1]",
+    "transition": "VALID->VALID(equivalent)"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getConfigurationActivedFeatures",
+    "input": "productName=null",
+    "v1_result": "[f1..f5]",
+    "v2_result": "[f5..f1]",
+    "transition": "VALID->VALID(different)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

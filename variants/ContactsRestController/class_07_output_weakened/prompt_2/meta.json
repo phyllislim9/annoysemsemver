@@ -1,0 +1,14 @@
+{
+  "class_id": 7,
+  "class_name": "output_weakened",
+  "prompt_id": 2,
+  "witness": {
+    "method": "updateContacts",
+    "input": "valid contacts",
+    "v1_result": "contacts + cart link",
+    "v2_result": "contacts without link",
+    "transition": "VALID->DEGRADED_VALID"
+  },
+  "note": "Only visible if the checker renders the HATEOAS links.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 3,
+  "witness": {
+    "method": "updateContacts / refreshContacts",
+    "input": "(removed+added)",
+    "v1_result": "update present",
+    "v2_result": "update absent, refresh present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 1,
+  "class_name": "refactor",
+  "prompt_id": 2,
+  "witness": {
+    "method": "findById",
+    "input": "any id",
+    "v1_result": "same",
+    "v2_result": "same",
+    "transition": "NONE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

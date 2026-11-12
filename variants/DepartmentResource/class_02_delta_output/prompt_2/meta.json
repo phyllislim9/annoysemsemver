@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "save",
+    "input": "a valid department",
+    "v1_result": "given:[1]",
+    "v2_result": "given:[1] ",
+    "transition": "VALID->VALID(equivalent: white space)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

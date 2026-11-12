@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 3,
+  "witness": {
+    "method": "list",
+    "input": "part=snippet",
+    "v1_result": "[v0, p1, c2, v3, p4]",
+    "v2_result": "(reversed then rotated)",
+    "transition": "VALID->VALID(equivalent: order)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

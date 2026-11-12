@@ -1,0 +1,14 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 2,
+  "witness": {
+    "method": "setDelivery / getPaymentUrl",
+    "input": "(removed+added)",
+    "v1_result": "delivery present",
+    "v2_result": "delivery absent, url present",
+    "transition": "REMOVE+ADD"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

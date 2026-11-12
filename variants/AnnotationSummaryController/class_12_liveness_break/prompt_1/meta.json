@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchVariantAnnotationSummaryGET",
+    "input": "a variant longer than 20 characters",
+    "v1_result": "summary",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

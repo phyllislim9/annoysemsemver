@@ -1,0 +1,14 @@
+{
+  "class_id": 8,
+  "class_name": "semantic_regression",
+  "prompt_id": 3,
+  "witness": {
+    "method": "deleteById",
+    "input": "(signature)",
+    "v1_result": "ResponseEntity<?>",
+    "v2_result": "ResponseEntity<Object>",
+    "transition": "SIGNATURE_CHANGE"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

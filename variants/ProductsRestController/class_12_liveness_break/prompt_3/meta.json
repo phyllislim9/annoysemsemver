@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getProducts",
+    "input": "(none)",
+    "v1_result": "3 products",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "getProducts takes no input, so it hangs on every call.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

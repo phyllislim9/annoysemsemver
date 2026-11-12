@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addFeatureToProduct",
+    "input": "any",
+    "v1_result": "Location /products/p/features/f",
+    "v2_result": "Location /PRODUCTS/p/FEATURES/f",
+    "transition": "VALID->VALID(equivalent: case)"
+  },
+  "note": "Only visible if the checker compares the Location header.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

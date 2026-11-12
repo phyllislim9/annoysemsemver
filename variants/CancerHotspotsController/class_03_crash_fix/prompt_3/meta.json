@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 3,
+  "witness": {
+    "method": "fetchHotspotAnnotationByTranscriptIdGET",
+    "input": "transcriptId = null",
+    "v1_result": "IllegalArgumentException",
+    "v2_result": "empty list",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addExcludesConstraintToProduct",
+    "input": "any",
+    "v1_result": "Location /products/p/constraint/7",
+    "v2_result": "Location /PRODUCTS/p/CONSTRAINT/7",
+    "transition": "VALID->VALID(equivalent)"
+  },
+  "note": "Only visible if the checker compares the Location header.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

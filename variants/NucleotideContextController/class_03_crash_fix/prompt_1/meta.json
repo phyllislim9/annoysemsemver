@@ -1,0 +1,14 @@
+{
+  "class_id": 3,
+  "class_name": "crash_fix",
+  "prompt_id": 1,
+  "witness": {
+    "method": "fetchNucleotideContextAnnotationGET",
+    "input": "variant null or blank",
+    "v1_result": "IllegalArgumentException",
+    "v2_result": "null",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

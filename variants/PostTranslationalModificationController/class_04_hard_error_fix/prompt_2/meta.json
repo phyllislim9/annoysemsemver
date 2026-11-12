@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchPostTranslationalModificationsByPtmFilterPOST",
+    "input": "a filter that is null, has no ids or a blank id",
+    "v1_result": "crash",
+    "v2_result": "empty list",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

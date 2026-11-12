@@ -1,0 +1,14 @@
+{
+  "class_id": 9,
+  "class_name": "regression_crash",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getProductByName",
+    "input": "productName=null",
+    "v1_result": "Product",
+    "v2_result": "IllegalArgumentException",
+    "transition": "VALID->CRASH"
+  },
+  "note": "",
+  "generator": "Claude (hand-written)"
+}

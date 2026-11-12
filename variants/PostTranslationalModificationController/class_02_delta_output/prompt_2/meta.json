@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "fetchPostTranslationalModificationsByPtmFilterPOST",
+    "input": "a filter with entries",
+    "v1_result": "[a,b]",
+    "v2_result": "[b,a]",
+    "transition": "VALID->VALID(equivalent: order)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

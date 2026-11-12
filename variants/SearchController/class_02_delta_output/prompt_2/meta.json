@@ -1,0 +1,14 @@
+{
+  "class_id": 2,
+  "class_name": "delta_output",
+  "prompt_id": 2,
+  "witness": {
+    "method": "searchAnnotationByKeywordGET",
+    "input": "any keyword",
+    "v1_result": "[a,b,c]",
+    "v2_result": "[c,a,b]",
+    "transition": "VALID->VALID(equivalent: order)"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

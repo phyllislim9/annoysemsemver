@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 1,
+  "witness": {
+    "method": "handleRequest",
+    "input": "path=\"zzz\"",
+    "v1_result": "PathNotFoundException",
+    "v2_result": "returns normally",
+    "transition": "CRASH->VALID"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

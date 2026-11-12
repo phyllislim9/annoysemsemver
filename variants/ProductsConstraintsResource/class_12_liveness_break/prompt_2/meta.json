@@ -1,0 +1,14 @@
+{
+  "class_id": 12,
+  "class_name": "liveness_break",
+  "prompt_id": 2,
+  "witness": {
+    "method": "addExcludesConstraintToProduct",
+    "input": "excludedFeature=\" \"",
+    "v1_result": "Response(201)",
+    "v2_result": "hangs",
+    "transition": "TERMINATES->HANGS"
+  },
+  "note": "",
+  "generator": "Claude (hand-written, not Gemini)"
+}

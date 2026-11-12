@@ -1,0 +1,14 @@
+{
+  "class_id": 4,
+  "class_name": "hard_error_fix",
+  "prompt_id": 1,
+  "witness": {
+    "method": "getByName",
+    "input": "name=null",
+    "v1_result": "HTTP 500",
+    "v2_result": "HTTP 400",
+    "transition": "CRASH->VALID"
+  },
+  "note": "Needs --http-5xx-crash: V1 catches the failure and answers HTTP 500.",
+  "generator": "Claude (hand-written, not Gemini)"
+}

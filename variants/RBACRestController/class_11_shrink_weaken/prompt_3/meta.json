@@ -1,0 +1,13 @@
+{
+  "class_id": 11,
+  "class_name": "shrink_weaken",
+  "prompt_id": 3,
+  "witness": {
+    "method": "getPermissionPresentationList / getPermissionCount",
+    "input": "(removed+added)",
+    "v1_result": "list present",
+    "v2_result": "list absent, count present",
+    "transition": "REMOVE+ADD"
+  },
+  "generator": "Claude (hand-written, not Gemini)"
+}
