@@ -1,4 +1,4 @@
-# SSVChk (anonymous artifact)
+# SSVChk
 
 SSVChk checks whether a declared version increment matches the behavioral difference between two
 versions of a class. It reports one of five levels, **Major**, **Minor**, **Patch**, **Crash** or
